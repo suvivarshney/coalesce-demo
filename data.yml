@@ -17,6 +17,8 @@ locations:
       "6":
         database: COALESCE_SAMPLE_DATABASE
         schema: SNOWFLAKE_SAMPLE_DATA_CLONE
+  DEMO_2:
+    mappingDefinitions: {}
 macros: {}
 packages: {}
 projects: {}

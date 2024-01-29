@@ -14,16 +14,9 @@ steps:
       locationName: DEMO_1_3
       materializationType: table
       metadata:
-        appliedNodeTests:
-          - continueOnFailure: true
-            description: ""
-            name: Test
-            runOrder: After
-            templateString: ""
+        appliedNodeTests: []
         columns:
-          - appliedColumnTests:
-              hasNull: false
-              isDistinct: false
+          - appliedColumnTests: {}
             columnReference:
               columnCounter: be0cf7e1-f028-48ae-b3c2-e7f1d264a4b1
               stepCounter: 54cfd829-7cf4-4f60-9965-6fa3434d725d
@@ -38,9 +31,7 @@ steps:
                   - columnCounter: cdac883d-cb09-4f6c-94a3-a0d499cdd75e
                     stepCounter: 72a0bab1-d754-4c1a-8959-1b198df1832b
                 transform: ""
-          - appliedColumnTests:
-              hasNull: false
-              isDistinct: false
+          - appliedColumnTests: {}
             columnReference:
               columnCounter: 1a098422-9e20-4da3-a708-d633e4eb6539
               stepCounter: 54cfd829-7cf4-4f60-9965-6fa3434d725d
@@ -55,9 +46,7 @@ steps:
                   - columnCounter: 499987a8-7321-4fe5-a727-a2e5ea18625d
                     stepCounter: 72a0bab1-d754-4c1a-8959-1b198df1832b
                 transform: ""
-          - appliedColumnTests:
-              hasNull: false
-              isDistinct: false
+          - appliedColumnTests: {}
             columnReference:
               columnCounter: 5447305a-8f56-4ab4-807d-7e4d942b729f
               stepCounter: 54cfd829-7cf4-4f60-9965-6fa3434d725d
@@ -73,9 +62,7 @@ steps:
                     stepCounter: 72a0bab1-d754-4c1a-8959-1b198df1832b
                 transform: ""
         cteString: ""
-        enabledColumnTestIDs:
-          - hasNull
-          - isDistinct
+        enabledColumnTestIDs: []
         sourceMapping:
           - aliases: {}
             customSQL:
