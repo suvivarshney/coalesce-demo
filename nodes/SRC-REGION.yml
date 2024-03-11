@@ -1,0 +1,63 @@
+steps:
+  REGION-cef0e8d5-a29d-4b7c-b680-1c3ad0b24b51:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b62da138-066f-4273-ba06-76bcb161c0cf
+              stepCounter: cef0e8d5-a29d-4b7c-b680-1c3ad0b24b51
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: R_REGIONKEY
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 90017ada-4355-4263-8b94-460e11506163
+              stepCounter: cef0e8d5-a29d-4b7c-b680-1c3ad0b24b51
+            config: {}
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: R_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 32792cbf-c8af-44b0-a4aa-3a35857c47e8
+              stepCounter: cef0e8d5-a29d-4b7c-b680-1c3ad0b24b51
+            config: {}
+            dataType: VARCHAR(152)
+            defaultValue: ""
+            description: ""
+            name: R_COMMENT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'REGION') }}
+      name: REGION
+      schema: ""
+      sqlType: Source
+      table: REGION
+      type: sourceInput
+    stepCounter: cef0e8d5-a29d-4b7c-b680-1c3ad0b24b51
