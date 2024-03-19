@@ -1,6 +1,13 @@
 defaultStorageMapping: TARGET
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-2:
+    excludeSelector: ""
+    id: 2
+    includeSelector: "{name:*}"
+    name: Test_Job
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
