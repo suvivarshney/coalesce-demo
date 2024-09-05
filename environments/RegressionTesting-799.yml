@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "799"
+mappingDefinitions:
+  OUTPUT:
+    database: SUVI_SYSADMIN
+    schema: DEV
+  SOURCE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: MANY_TABLES
+name: Regression Testing
+type: Environment
