@@ -1,0 +1,10 @@
+fileVersion: 1
+id: "6"
+name: Partial_Graph
+steps:
+  - 3286e0c9-285b-46c7-823d-1f912844be8a
+  - 330ee2f8-2efc-4eb6-b661-3de647760af0
+  - 7f92069b-8b88-4e66-9cff-46779e722f71
+  - cb2bcf8a-d3c5-4491-9da6-e75e159e884a
+  - e1e7a717-9a3b-400e-ab57-7c17072fc3e6
+type: Subgraph

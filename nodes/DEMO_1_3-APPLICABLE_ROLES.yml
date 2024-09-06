@@ -1,78 +1,80 @@
-steps:
-  APPLICABLE_ROLES-ca94c088-172f-48b9-941c-073cef9c22cb:
-    operation:
-      database: ""
-      dataset: ""
-      deployEnabled: true
-      description: The roles that can be applied to the current user.
-      locationName: DEMO_1_3
-      metadata:
-        columns:
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: fa6e5b67-3872-4e47-a328-2b8cb1a91e3b
-              stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
-            config: {}
-            dataType: VARCHAR(16777216)
-            defaultValue: ""
-            description: Role or user to whom the privilege is granted
-            name: GRANTEE
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: d90b47a4-7211-4be7-88b7-59fe44c5204a
-              stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
-            config: {}
-            dataType: VARCHAR(16777216)
-            defaultValue: ""
-            description: Name of the role
-            name: ROLE_NAME
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 61f11994-79d1-4520-a83c-76051bab9a29
-              stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
-            config: {}
-            dataType: VARCHAR(16777216)
-            defaultValue: ""
-            description: Owner of the role
-            name: ROLE_OWNER
-            nullable: false
-            primaryKey: false
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 03441e91-bb03-43fa-933d-1d6494b7e6f6
-              stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
-            config: {}
-            dataType: VARCHAR(3)
-            defaultValue: ""
-            description: Whether this role can be granted to others
-            name: IS_GRANTABLE
-            nullable: true
-            primaryKey: false
-            uniqueKey: false
-        join:
-          joinCondition: FROM {{ ref('DEMO_1_3', 'APPLICABLE_ROLES') }}
-      name: APPLICABLE_ROLES
-      schema: ""
-      sqlType: Source
-      table: APPLICABLE_ROLES
-      type: sourceInput
-    stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
+fileVersion: 1
+id: ca94c088-172f-48b9-941c-073cef9c22cb
+name: APPLICABLE_ROLES
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: The roles that can be applied to the current user.
+  locationName: DEMO_1_3
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fa6e5b67-3872-4e47-a328-2b8cb1a91e3b
+          stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: Role or user to whom the privilege is granted
+        name: GRANTEE
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d90b47a4-7211-4be7-88b7-59fe44c5204a
+          stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: Name of the role
+        name: ROLE_NAME
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 61f11994-79d1-4520-a83c-76051bab9a29
+          stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: Owner of the role
+        name: ROLE_OWNER
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 03441e91-bb03-43fa-933d-1d6494b7e6f6
+          stepCounter: ca94c088-172f-48b9-941c-073cef9c22cb
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: Whether this role can be granted to others
+        name: IS_GRANTABLE
+        nullable: true
+        primaryKey: false
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('DEMO_1_3', 'APPLICABLE_ROLES') }}
+  name: APPLICABLE_ROLES
+  schema: ""
+  sqlType: Source
+  table: APPLICABLE_ROLES
+  type: sourceInput
+  version: 1
+type: Node
