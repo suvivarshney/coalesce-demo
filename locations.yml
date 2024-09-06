@@ -1,5 +1,8 @@
-defaultStorageMapping: SOURCE
+defaultStorageMapping: INPUT2
 fileVersion: 1
 locations:
+  - INPUT2
+  - NEWOUTPUT
   - OUTPUT
   - SOURCE
+  - WILLJENNSUVI
