@@ -16,5 +16,5 @@ mappingDefinitions:
   WILLJENNSUVI:
     database: ""
     schema: ""
-name: TestEnv-2
+name: TestEnv-2-Duplicate
 type: Environment

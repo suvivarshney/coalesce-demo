@@ -16,5 +16,5 @@ mappingDefinitions:
   WILLJENNSUVI:
     database: ""
     schema: ""
-name: Regression Testing
+name: Regression Testing Duplicate
 type: Environment
