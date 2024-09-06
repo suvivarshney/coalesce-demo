@@ -70,7 +70,7 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 46e8df8b-e1b3-425c-8f74-5f07afe2fe7e
+              - columnCounter: 98f49797-0078-40c8-a701-b9358ba244df
                 stepCounter: b311d174-6149-465e-882b-1f61f19676dd
             transform: ""
     cteString: ""
