@@ -1,9 +1,7 @@
 defaultStorageMapping: NEWOUTPUT
 fileVersion: 1
 locations:
-  - INPUT2
-  - NEWOUTPUT
-  - NEWTESTLOADING
+  - INPUT
+  - NEW-TEST
+  - NEW-TEST-COMMIT
   - OUTPUT
-  - SOURCE
-  - WILLJENNSUVI
