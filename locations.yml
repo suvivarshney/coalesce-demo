@@ -2,5 +2,6 @@ defaultStorageMapping: INPUT
 fileVersion: 1
 locations:
   - INPUT
+  - NEW-TEST
   - NEW-TEST-COMMIT
   - OUTPUT
