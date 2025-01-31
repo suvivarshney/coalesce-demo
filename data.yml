@@ -1,26 +1,12 @@
 defaultStorageMapping: TARGET
 installedPackages: {}
-jobs:
-  Job-1:
-    excludeSelector: ""
-    id: 1
-    includeSelector: "{name:*}"
-    name: J1-Br
-    steps: []
-    subgraphs: []
-  Job-2:
-    excludeSelector: ""
-    id: 2
-    includeSelector: "{name:*}"
-    name: Another_One
-    steps: []
-    subgraphs: []
+jobs: {}
 locations:
-  SRC:
+  ALT_SRC:
     mappingDefinitions:
       "30":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: MANY_TABLES
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1000
   TARGET:
     mappingDefinitions:
       "30":
@@ -1488,13 +1474,5 @@ stepTypes:
             {% endif %}
     name: Persistent Stage
     version: 1
-subgraphs:
-  Subgraph-1:
-    id: "1"
-    name: |
-      Imp
-    steps:
-      - 84b6b922-cbe8-4d08-9c94-40af1cc1a8aa
-      - 429f1d7c-e0fd-42db-9989-a583c220c592
-      - 14ef0da4-3941-42cd-a797-345208b5fef8
+subgraphs: {}
 version: 2
