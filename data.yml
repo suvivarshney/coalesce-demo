@@ -1,13 +1,6 @@
 defaultStorageMapping: TARGET
 installedPackages: {}
 jobs:
-  Job-3:
-    excludeSelector: ""
-    id: 3
-    includeSelector: "{name:*}"
-    name: The_One
-    steps: []
-    subgraphs: []
   Job-4:
     excludeSelector: "{name: STG_CUSTOMER1}"
     id: 4
