@@ -1,10 +1,10 @@
 steps:
-  STG_CUSTOMER-b6bd6b21-9419-45af-95fe-0d0edab0d1cc:
+  STG_CUSTOMER1-bdeeb082-9084-4f70-92e4-866cf18806b6:
     operation:
       config:
         insertStrategy: INSERT
         postSQL: ""
-        preSQL: foobar
+        preSQL: ""
         testsEnabled: true
         truncateBefore: true
       database: ""
@@ -17,8 +17,8 @@ steps:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 6e6c4469-ceae-4717-9fbc-3ccaf2edb5c0
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: d4ff0563-2c60-432c-85fc-2c16872677ba
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: NUMBER(38,0)
             description: ""
             name: C_CUSTKEY
@@ -29,8 +29,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: d2d648b9-6988-425c-8955-f0681eb07e9a
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: 18086151-8077-4469-988c-39d05b355d54
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: VARCHAR(25)
             description: ""
             name: C_NAME
@@ -41,8 +41,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: c3801533-cce3-4491-a19e-a4cb055d5757
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: 181a8f84-2131-44d9-8002-da4895f99e66
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: VARCHAR(40)
             description: ""
             name: C_ADDRESS
@@ -53,8 +53,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: 49247f29-dfd3-4ba7-a320-46b0451027ff
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: 13e78d9e-546d-46bb-92d1-a40a9365d878
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: NUMBER(38,0)
             description: ""
             name: C_NATIONKEY
@@ -65,8 +65,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: 47bd3bbf-40e5-4cfc-84f5-0d5a0fa3c13a
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: f03b4ae3-7452-4280-b061-556f2767aa5a
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: VARCHAR(15)
             description: ""
             name: C_PHONE
@@ -77,9 +77,9 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: 16fd37c2-15c0-49d3-a320-3159e5dd7130
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
-            dataType: NUMBER(12,2)
+              columnCounter: 3887d70e-bf2b-4f16-b380-0d65550caeaa
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
+            dataType: foobar
             description: ""
             name: C_ACCTBAL
             nullable: false
@@ -89,8 +89,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: 82b0a88c-2899-45cf-980c-c8eee5820bbb
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: e4d76f51-fdce-4915-99d2-72163275e781
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: VARCHAR(10)
             description: ""
             name: C_MKTSEGMENT
@@ -101,8 +101,8 @@ steps:
                     stepCounter: a1b89e45-0a24-4b3b-8717-9a0f31738b07
                 transform: ""
           - columnReference:
-              columnCounter: 608d657f-73af-4af6-bc2b-f0318e3c69d3
-              stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+              columnCounter: 61c96b6c-bb26-4951-bc45-644cb198f863
+              stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
             dataType: VARCHAR(117)
             description: ""
             name: C_COMMENT
@@ -123,11 +123,11 @@ steps:
                 nodeName: CUSTOMER
             join:
               joinCondition: FROM {{ ref('ALT_SRC', 'CUSTOMER') }} "CUSTOMER"
-            name: STG_CUSTOMER
+            name: STG_CUSTOMER1
             noLinkRefs: []
-      name: STG_CUSTOMER
+      name: STG_CUSTOMER1
       overrideSQL: false
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: b6bd6b21-9419-45af-95fe-0d0edab0d1cc
+    stepCounter: bdeeb082-9084-4f70-92e4-866cf18806b6
