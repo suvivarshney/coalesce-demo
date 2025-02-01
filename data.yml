@@ -8,6 +8,13 @@ jobs:
     name: The_One
     steps: []
     subgraphs: []
+  Job-4:
+    excludeSelector: "{name: STG_CUSTOMER1}"
+    id: 4
+    includeSelector: "{name:*}"
+    name: SubGraph
+    steps: []
+    subgraphs: []
 locations:
   ALT_SRC:
     mappingDefinitions:
