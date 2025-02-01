@@ -103,7 +103,7 @@ steps:
           - columnReference:
               columnCounter: 647d2abf-80a2-42ad-b6eb-4d32ed4cee56
               stepCounter: 7348c1cd-ba75-46b6-8b0b-fae3dde7d55a
-            dataType: VARCHAR(117)
+            dataType: FOOBAR
             description: ""
             name: C_COMMENT
             nullable: true

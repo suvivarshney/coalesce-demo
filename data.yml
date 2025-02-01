@@ -15,6 +15,13 @@ jobs:
     name: SubGraph2
     steps: []
     subgraphs: []
+  Job-6:
+    excludeSelector: ""
+    id: 6
+    includeSelector: "{name:*}"
+    name: Error-job
+    steps: []
+    subgraphs: []
 locations:
   ALT_SRC:
     mappingDefinitions:
