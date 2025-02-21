@@ -1,0 +1,9 @@
+defaultStorageMapping: null
+fileVersion: 1
+locations:
+  - OUTPUT
+  - SOURCE
+  - SOURCE2
+  - SOURCE3
+  - SOURCE4
+  - SOURCE5
